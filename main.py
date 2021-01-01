@@ -291,6 +291,8 @@ while True:
 			level = "Customer"
 
 			register = User(username, password, nama, no_ktp, alamat, level).registrasiAkun()
+		elif(menu == 3):
+			print("Menu tidak valid")
 	else:
 		if(arrayAkun[0][5] == "Admin"):
 			print("1. Edit Akun")
